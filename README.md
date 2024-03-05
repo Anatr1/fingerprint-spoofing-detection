@@ -7,7 +7,7 @@ _[Project developed for the Machine Learning and Pattern Recognition course @Pol
 This project aims to evaluate the performance of various machine learning supervised algorithms in distinguishing between genuine and spoofed fingerprint images. Specifically, it focuses on detecting fingerprints that have been maliciously replicated, posing a potential security threat.
 
 ## Dataset
-The project uses a dataset of synthetic fingerprint images, represented by 10-dimensional embeddings. The dataset has two classes: authentic and spoofed fingerprints. The spoofed class has six sub-classes corresponding to different spoofing methods, but the sub-class labels are not available5. The dataset is pre-divided into a training set (2,325 samples) and a test set (7,704 samples), with a class imbalance ratio of about 2:16.
+The project uses a dataset of synthetic fingerprint images, represented by 10-dimensional embeddings. The dataset has two classes: authentic and spoofed fingerprints. The spoofed class has six sub-classes corresponding to different spoofing methods, but the sub-class labels are not available. The dataset is pre-divided into a training set (2,325 samples) and a test set (7,704 samples), with a class imbalance ratio of about 2:16.
 
 ## Classifiers
 The project employs and compares the following classification techniques:
